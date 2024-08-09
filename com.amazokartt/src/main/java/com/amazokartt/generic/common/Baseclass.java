@@ -23,6 +23,7 @@ public class Baseclass extends objectUtility {
 	public WebDriver driver = null;
 	public static WebDriver driver_static;
 
+	
 	@DataProvider(name = "Registerdata")
 	public String[][] Registerdata() {
 		String[][] data = new String[3][3];
